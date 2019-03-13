@@ -14,7 +14,7 @@ $ npx servor
 
 ## Implementation
 
-This project uses a proprietary version of react called [`es-react`](https://github.com/lukejacksonn/es-react) which allows you to import `React` and `ReactDOM` (version 16.8.3) as an es module from within your app and component files.
+This project uses a custom build of react called [`es-react`](https://github.com/lukejacksonn/es-react) which allows you to import `React` and `ReactDOM` (version 16.8.3) as an ES module from within your app and component files.
 
 ```js
 import { React, ReactDOM } from 'https://unpkg.com/es-react';
